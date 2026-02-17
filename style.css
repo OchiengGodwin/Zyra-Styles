@@ -1,0 +1,59 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo-placeholder {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-btn {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.link-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Highlight your shop link */
+.website {
+    background-color: #d4af37; /* Gold */
+    color: white;
+    border: none;
+}
